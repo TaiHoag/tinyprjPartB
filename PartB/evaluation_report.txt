@@ -1,0 +1,37 @@
+=====================================
+    LINEAR REGRESSION EVALUATION
+=====================================
+
+Model Equation:
+PRP = 0.025613*MYCT + 0.016445*MMIN + 0.003430*MMAX + 0.476688*CACH + 1.200129*CHMIN + 0.722050*CHMAX
+
+Performance Metrics:
+-------------------
+Root Mean Square Error (RMSE): 97.8655
+Mean Square Error (MSE):       9577.6604
+Mean Absolute Error (MAE):     36.0415
+R-squared (R²):                0.7712
+Mean Absolute Percentage Error: 40.4558%
+Number of test samples:        42
+
+Residual Analysis:
+----------------
+Mean residual:     14.2605
+Std residual:      96.8210
+Min residual:      -59.1604
+Max residual:      597.2211
+
+Sample Predictions (First 10):
+-----------------------------
+    Actual   Predicted    Residual    % Error
+----------------------------------------------
+     71.00       67.67        3.33       4.69%
+    208.00      202.48        5.52       2.65%
+     20.00       14.77        5.23      26.16%
+     32.00       65.05      -33.05     103.29%
+     60.00       58.72        1.28       2.14%
+    100.00      139.90      -39.90      39.90%
+     50.00       72.37      -22.37      44.73%
+     26.00       19.20        6.80      26.15%
+     33.00       22.12       10.88      32.96%
+     16.00       48.05      -32.05     200.33%
